@@ -31,9 +31,9 @@ class BentukMeja():
             return up(x, self.persegipanjang, self.bulat)
 
 class BahanMeja():
-    kayu = 30
-    besi = 40
-    plastik = 20
+    kayu = 40
+    besi = 20
+    plastik = 70
 
     def sedikit(self, x):
         if x >= self.kayu:
@@ -64,7 +64,7 @@ class BahanMeja():
 class WarnaMeja():
     putih = 30
     hitam = 20
-    Coklat = 40
+    Coklat = 60
 
     def sedikit(self, x):
         if x >= self.hitam:
@@ -93,9 +93,9 @@ class WarnaMeja():
             return up(x, self.putih, self.coklat)
 
 class UkiranMeja():
-    naga = 50
-    daun = 20
-    burung = 30
+    naga = 40
+    daun = 30
+    burung = 60
    
     def sedikit(self, x):
         if x >= self.daun:
